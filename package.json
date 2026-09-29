@@ -1,6 +1,6 @@
 {
   "name": "fs-linker",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "File system linker via native operating system symlinks",
   "keywords": [
     "cli",
@@ -16,41 +16,50 @@
   "author": "Ali Karpykov <alikarpykov@gmail.com>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/hireddev/fs-linker"
+    "url": "git+https://github.com/hireddev/fs-linker.git"
   },
   "bin": {
-    "fsl": "dist/cli.js"
+    "fsl": "dist/app/cli.js"
   },
   "files": [
     "dist"
   ],
   "type": "module",
-  "main": "dist/cli.js",
+  "main": "dist/app/cli.js",
   "imports": {
     "#/*": "./dist/*"
   },
   "scripts": {
+    "clean": "node --eval \"import('node:fs').then(({rmSync}) => rmSync('dist', {recursive: true, force: true}))\"",
+    "prebuild": "pnpm clean",
     "build": "tsc",
-    "dev": "pastel dev",
-    "start": "pastel start",
+    "prepack": "pnpm build",
+    "dev": "tsc --watch",
+    "start": "node dist/app/cli.js",
     "fmt": "oxfmt",
     "fmt:check": "oxfmt --check",
     "lint": "oxlint",
     "lint:fix": "oxlint --fix"
   },
   "dependencies": {
-    "ink": "^7.1.0",
+    "ansi-escapes": "^7.3.0",
+    "chokidar": "^5.0.0",
+    "ink": "^7.1.1",
+    "ink-gradient": "^4.0.1",
+    "ink-link": "^5.0.0",
+    "ink-scroll-list": "^0.4.1",
     "pastel": "^4.0.1",
     "react": "^19.2.7",
     "zod": "^4.4.3"
   },
   "devDependencies": {
+    "@types/node": "^26.1.1",
     "@types/react": "^19.2.17",
     "oxfmt": "^0.57.0",
-    "oxlint": "^1.72.0",
+    "oxlint": "^1.74.0",
     "typescript": "^6.0.3"
   },
   "engines": {
-    "node": ">=18"
+    "node": ">=22.18.0"
   }
 }

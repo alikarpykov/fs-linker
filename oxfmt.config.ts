@@ -1,32 +1,43 @@
 import { defineConfig } from 'oxfmt'
 
 export default defineConfig({
-  printWidth: 100,
+  printWidth: 80,
   tabWidth: 2,
   useTabs: false,
   singleQuote: true,
+  jsxSingleQuote: true,
   semi: false,
   trailingComma: 'all',
-
-  // стрелочные функции: (x) => x вместо x => x — читабельнее в TypeScript
   arrowParens: 'always',
-
-  // { key: value } вместо {key: value}
   bracketSpacing: true,
-
-  // конец строки LF — важно для кросс-платформенности (Windows/Linux/macOS)
   endOfLine: 'lf',
 
-  // автоматически сортирует импорты по группам:
-  // сначала node built-ins, потом внешние пакеты, потом локальные файлы
   sortImports: {
-    partitionByNewline: false,
+    newlinesBetween: false,
+    customGroups: [
+      {
+        groupName: 'react',
+        elementNamePattern: ['react', 'react-**'],
+      },
+    ],
     groups: [
-      'type-import',
       'value-builtin',
+      { newlinesBetween: true },
+      'react',
+      { newlinesBetween: true },
       'value-external',
-      'type-internal',
+      { newlinesBetween: true },
       'value-internal',
+      { newlinesBetween: true },
+      ['value-parent', 'value-sibling', 'value-index'],
+      { newlinesBetween: true },
+      [
+        'type-import',
+        'type-internal',
+        'type-parent',
+        'type-sibling',
+        'type-index',
+      ],
       'unknown',
     ],
   },
