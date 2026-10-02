@@ -4,6 +4,8 @@ FS-Linker is an interactive terminal application for developers and power users 
 
 The destination can be another directory on the same SSD, another drive, or cloud storage. Tools and applications can continue accessing the data without changing their configured paths.
 
+![FS-Linker demo](assets/fs-linker-demo.gif)
+
 ## How it works
 
 FS-Linker uses two file-system panels and a Link Plan:
