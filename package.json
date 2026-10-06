@@ -8,15 +8,15 @@
     "linker",
     "symlink"
   ],
-  "homepage": "https://github.com/hireddev/fs-linker#readme",
+  "homepage": "https://github.com/alikarpykov/fs-linker#readme",
   "bugs": {
-    "url": "https://github.com/hireddev/fs-linker/issues"
+    "url": "https://github.com/alikarpykov/fs-linker/issues"
   },
   "license": "MIT",
   "author": "Ali Karpykov <alikarpykov@gmail.com>",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hireddev/fs-linker.git"
+    "url": "git+https://github.com/alikarpykov/fs-linker.git"
   },
   "bin": {
     "fsl": "dist/app/cli.js"

@@ -92,7 +92,7 @@ export const LinkingWorkspace = () => {
   return (
     <Box flexDirection='column' alignItems='center' height={rows} padding={1}>
       <Box columnGap={1} marginBottom={1} paddingX={1}>
-        <Link url='https://github.com/hireddev/fs-linker' fallback={false}>
+        <Link url='https://github.com/alikarpykov/fs-linker' fallback={false}>
           <Text bold>
             <Gradient colors={['#57acdc', '#dc5757']}>FS-Linker</Gradient>
           </Text>
