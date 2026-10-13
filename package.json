@@ -57,7 +57,7 @@
     "@types/react": "^19.2.17",
     "oxfmt": "^0.57.0",
     "oxlint": "^1.74.0",
-    "typescript": "^6.0.3"
+    "typescript": "^7.0.2"
   },
   "engines": {
     "node": ">=22.18.0"
