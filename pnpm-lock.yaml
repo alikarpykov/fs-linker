@@ -16,22 +16,22 @@ importers:
         version: 5.0.0
       ink:
         specifier: ^7.1.1
-        version: 7.1.1(@types/react@19.2.17)(react@19.2.7)
+        version: 7.1.1(@types/react@19.3.0)(react@19.3.0)
       ink-gradient:
         specifier: ^4.0.1
-        version: 4.0.1(ink@7.1.1(@types/react@19.2.17)(react@19.2.7))(react@19.2.7)
+        version: 4.0.1(ink@7.1.1(@types/react@19.3.0)(react@19.3.0))(react@19.3.0)
       ink-link:
         specifier: ^5.0.0
-        version: 5.0.0(ink@7.1.1(@types/react@19.2.17)(react@19.2.7))
+        version: 5.0.0(ink@7.1.1(@types/react@19.3.0)(react@19.3.0))
       ink-scroll-list:
         specifier: ^0.5.0
-        version: 0.5.0(ink@7.1.1(@types/react@19.2.17)(react@19.2.7))(react@19.2.7)
+        version: 0.5.0(ink@7.1.1(@types/react@19.3.0)(react@19.3.0))(react@19.3.0)
       pastel:
         specifier: ^4.0.1
-        version: 4.0.1(ink@7.1.1(@types/react@19.2.17)(react@19.2.7))(react@19.2.7)(zod@4.6.5)
+        version: 4.0.1(ink@7.1.1(@types/react@19.3.0)(react@19.3.0))(react@19.3.0)(zod@4.6.5)
       react:
         specifier: ^19.2.7
-        version: 19.2.7
+        version: 19.3.0
       zod:
         specifier: ^4.4.3
         version: 4.6.5
@@ -41,7 +41,7 @@ importers:
         version: 26.6.5
       '@types/react':
         specifier: ^19.2.17
-        version: 19.2.17
+        version: 19.3.0
       oxfmt:
         specifier: ^0.72.0
         version: 0.72.0
@@ -325,8 +325,8 @@ packages:
   '@types/normalize-package-data@2.4.4':
     resolution: {integrity: sha512-37i+OaWTh9qeK4LSHPsyRC7NahnGotNuZvjLSgcPzblpHB3rrCJxAOgI5gCdKm7coonsaX1Of0ILiTcnZjbfxA==}
 
-  '@types/react@19.2.17':
-    resolution: {integrity: sha512-MXfmqaVPEVgkBT/aY0aGCkRWWtByiYQXo3xdQ8r5RzuFrPiRn8Gar2tQdXSUQ2GKV3bkXckek89V8wQBY2Q/Aw==}
+  '@types/react@19.3.0':
+    resolution: {integrity: sha512-N0rFCuH9YoxG9/m61l9MfpJKfmLOVU0em7ipIz6TRgSSkvReLB9vL85GB+yr8Bs5leqpvg96JSwF4ZS1s4viQg==}
 
   '@types/tinycolor2@1.4.6':
     resolution: {integrity: sha512-iEN8J0BoMnsWBqjVbWH/c0G0Hh7O21lpR2/+PrvAVgWdzL7eexIFm4JN/Wn10PTcmNdtS6U67r499mlWMXOxNw==}
@@ -685,8 +685,8 @@ packages:
     peerDependencies:
       react: ^19.2.0
 
-  react@19.2.7:
-    resolution: {integrity: sha512-HNe9WslTbXmFK8o8cmwgAeJFSBvt1bPdHCVKtaaV+WlAN36mpT4hcRpwbf3fY56ar2oIXzsBpOAiIRHAdY0OlQ==}
+  react@19.3.0:
+    resolution: {integrity: sha512-E8LUcbtBWt20bbl2YoHfx4ZDBdxVTfOKtCZn9cDSJ4l6/nuoApcpIBcj47t2wZoVX8g2ZHuMHbiShgCR1T5Sog==}
     engines: {node: '>=0.10.0'}
 
   read-package-up@11.0.0:
@@ -844,13 +844,13 @@ snapshots:
 
   '@babel/helper-validator-identifier@7.29.7': {}
 
-  '@inkjs/ui@2.0.0(ink@7.1.1(@types/react@19.2.17)(react@19.2.7))':
+  '@inkjs/ui@2.0.0(ink@7.1.1(@types/react@19.3.0)(react@19.3.0))':
     dependencies:
       chalk: 5.6.2
       cli-spinners: 3.4.0
       deepmerge: 4.3.1
       figures: 6.1.0
-      ink: 7.1.1(@types/react@19.2.17)(react@19.2.7)
+      ink: 7.1.1(@types/react@19.3.0)(react@19.3.0)
 
   '@oxfmt/binding-android-arm-eabi@0.72.0':
     optional: true
@@ -976,7 +976,7 @@ snapshots:
 
   '@types/normalize-package-data@2.4.4': {}
 
-  '@types/react@19.2.17':
+  '@types/react@19.3.0':
     dependencies:
       csstype: 3.2.3
 
@@ -1114,31 +1114,31 @@ snapshots:
 
   index-to-position@1.2.0: {}
 
-  ink-gradient@4.0.1(ink@7.1.1(@types/react@19.2.17)(react@19.2.7))(react@19.2.7):
+  ink-gradient@4.0.1(ink@7.1.1(@types/react@19.3.0)(react@19.3.0))(react@19.3.0):
     dependencies:
       '@types/gradient-string': 1.1.6
       gradient-string: 3.0.0
-      ink: 7.1.1(@types/react@19.2.17)(react@19.2.7)
-      react: 19.2.7
+      ink: 7.1.1(@types/react@19.3.0)(react@19.3.0)
+      react: 19.3.0
       strip-ansi: 7.2.0
 
-  ink-link@5.0.0(ink@7.1.1(@types/react@19.2.17)(react@19.2.7)):
+  ink-link@5.0.0(ink@7.1.1(@types/react@19.3.0)(react@19.3.0)):
     dependencies:
-      ink: 7.1.1(@types/react@19.2.17)(react@19.2.7)
+      ink: 7.1.1(@types/react@19.3.0)(react@19.3.0)
       terminal-link: 5.0.0
 
-  ink-scroll-list@0.5.0(ink@7.1.1(@types/react@19.2.17)(react@19.2.7))(react@19.2.7):
+  ink-scroll-list@0.5.0(ink@7.1.1(@types/react@19.3.0)(react@19.3.0))(react@19.3.0):
     dependencies:
-      ink: 7.1.1(@types/react@19.2.17)(react@19.2.7)
-      ink-scroll-view: 0.4.0(ink@7.1.1(@types/react@19.2.17)(react@19.2.7))(react@19.2.7)
-      react: 19.2.7
+      ink: 7.1.1(@types/react@19.3.0)(react@19.3.0)
+      ink-scroll-view: 0.4.0(ink@7.1.1(@types/react@19.3.0)(react@19.3.0))(react@19.3.0)
+      react: 19.3.0
 
-  ink-scroll-view@0.4.0(ink@7.1.1(@types/react@19.2.17)(react@19.2.7))(react@19.2.7):
+  ink-scroll-view@0.4.0(ink@7.1.1(@types/react@19.3.0)(react@19.3.0))(react@19.3.0):
     dependencies:
-      ink: 7.1.1(@types/react@19.2.17)(react@19.2.7)
-      react: 19.2.7
+      ink: 7.1.1(@types/react@19.3.0)(react@19.3.0)
+      react: 19.3.0
 
-  ink@7.1.1(@types/react@19.2.17)(react@19.2.7):
+  ink@7.1.1(@types/react@19.3.0)(react@19.3.0):
     dependencies:
       '@alcalzone/ansi-tokenize': 0.3.0
       ansi-escapes: 7.3.0
@@ -1153,8 +1153,8 @@ snapshots:
       indent-string: 5.0.0
       is-in-ci: 2.0.0
       patch-console: 2.0.0
-      react: 19.2.7
-      react-reconciler: 0.33.0(react@19.2.7)
+      react: 19.3.0
+      react-reconciler: 0.33.0(react@19.3.0)
       scheduler: 0.27.0
       signal-exit: 3.0.7
       slice-ansi: 9.0.0
@@ -1167,7 +1167,7 @@ snapshots:
       ws: 8.21.1
       yoga-layout: 3.2.1
     optionalDependencies:
-      '@types/react': 19.2.17
+      '@types/react': 19.3.0
     transitivePeerDependencies:
       - bufferutil
       - utf-8-validate
@@ -1250,14 +1250,14 @@ snapshots:
       index-to-position: 1.2.0
       type-fest: 4.41.0
 
-  pastel@4.0.1(ink@7.1.1(@types/react@19.2.17)(react@19.2.7))(react@19.2.7)(zod@4.6.5):
+  pastel@4.0.1(ink@7.1.1(@types/react@19.3.0)(react@19.3.0))(react@19.3.0)(zod@4.6.5):
     dependencies:
-      '@inkjs/ui': 2.0.0(ink@7.1.1(@types/react@19.2.17)(react@19.2.7))
+      '@inkjs/ui': 2.0.0(ink@7.1.1(@types/react@19.3.0)(react@19.3.0))
       commander: 14.0.3
       decamelize: 6.0.1
-      ink: 7.1.1(@types/react@19.2.17)(react@19.2.7)
+      ink: 7.1.1(@types/react@19.3.0)(react@19.3.0)
       plur: 5.1.0
-      react: 19.2.7
+      react: 19.3.0
       read-package-up: 11.0.0
       zod: 4.6.5
       zod-validation-error: 4.0.2(zod@4.6.5)
@@ -1270,12 +1270,12 @@ snapshots:
     dependencies:
       irregular-plurals: 3.5.0
 
-  react-reconciler@0.33.0(react@19.2.7):
+  react-reconciler@0.33.0(react@19.3.0):
     dependencies:
-      react: 19.2.7
+      react: 19.3.0
       scheduler: 0.27.0
 
-  react@19.2.7: {}
+  react@19.3.0: {}
 
   read-package-up@11.0.0:
     dependencies:
