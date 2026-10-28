@@ -109,10 +109,6 @@ The Source panel supports multiple selections. The Target panel supports one sel
 
 Press `d` to remove the selected source symlinks. Unlinking does not move the original data back to the source paths and never modifies the target data. Regular files and directories are not removed.
 
-## Roadmap: restoring links on another device
-
-A future version of FS-Linker will make it possible to restore saved symlink connections on another device.
-
 ## Development
 
 This project uses pnpm:
