@@ -28,13 +28,13 @@ importers:
         version: 0.5.0(ink@7.1.1(@types/react@19.3.0)(react@19.3.0))(react@19.3.0)
       pastel:
         specifier: ^4.0.1
-        version: 4.0.1(ink@7.1.1(@types/react@19.3.0)(react@19.3.0))(react@19.3.0)(zod@4.6.5)
+        version: 4.0.1(ink@7.1.1(@types/react@19.3.0)(react@19.3.0))(react@19.3.0)(zod@4.6.7)
       react:
         specifier: ^19.2.7
         version: 19.3.0
       zod:
         specifier: ^4.4.3
-        version: 4.6.5
+        version: 4.6.7
     devDependencies:
       '@types/node':
         specifier: ^26.1.1
@@ -826,8 +826,8 @@ packages:
     peerDependencies:
       zod: ^3.25.0 || ^4.0.0
 
-  zod@4.6.5:
-    resolution: {integrity: sha512-v5l/aFXZQeai4awLbOpSoHecE9UiMrnfx75tEXLjNonXVARxQ5mOeipTjROUchszUNCqnE+hqAMujRsRHsut2Q==}
+  zod@4.6.7:
+    resolution: {integrity: sha512-g8W2D2kU6a8untc053fX1uVBKzM7yqAxW/3zwk83+6RyF2+SKOuV+c0wBDhUwzV1PaGapmZH+rmcUzPf+3CGwg==}
 
 snapshots:
 
@@ -1250,7 +1250,7 @@ snapshots:
       index-to-position: 1.2.0
       type-fest: 4.41.0
 
-  pastel@4.0.1(ink@7.1.1(@types/react@19.3.0)(react@19.3.0))(react@19.3.0)(zod@4.6.5):
+  pastel@4.0.1(ink@7.1.1(@types/react@19.3.0)(react@19.3.0))(react@19.3.0)(zod@4.6.7):
     dependencies:
       '@inkjs/ui': 2.0.0(ink@7.1.1(@types/react@19.3.0)(react@19.3.0))
       commander: 14.0.3
@@ -1259,8 +1259,8 @@ snapshots:
       plur: 5.1.0
       react: 19.3.0
       read-package-up: 11.0.0
-      zod: 4.6.5
-      zod-validation-error: 4.0.2(zod@4.6.5)
+      zod: 4.6.7
+      zod-validation-error: 4.0.2(zod@4.6.7)
 
   patch-console@2.0.0: {}
 
@@ -1413,8 +1413,8 @@ snapshots:
 
   yoga-layout@3.2.1: {}
 
-  zod-validation-error@4.0.2(zod@4.6.5):
+  zod-validation-error@4.0.2(zod@4.6.7):
     dependencies:
-      zod: 4.6.5
+      zod: 4.6.7
 
-  zod@4.6.5: {}
+  zod@4.6.7: {}
